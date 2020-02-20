@@ -1,0 +1,49 @@
+body {
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+}
+
+.img-circle {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 54px;
+    letter-spacing: ;
+    font-weight: bold;
+}
+
+.section {
+    border-bottom: solid 2px gray;
+    border-top: solid 2px gray;
+    font-size: 30px;
+}
+
+.emph {
+    color: orange;
+    font-style: italic;
+}
+
+.date {
+    font-weight: bold;
+}
+
+#col1 {
+    height: auto;
+    width: 50%;
+    float: left;
+}
+
+#col2 {
+    height: auto;
+    width: 50%;
+    margin-left: 60%;
+}
