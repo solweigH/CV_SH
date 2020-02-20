@@ -5,6 +5,20 @@ body {
     font-family: sans-serif;
 }
 
+
+/*#bord {
+    height: auto;
+    width: 20%;
+    float: left;
+}
+
+#exp {
+    height: 20%;
+    width: 80%;
+    margin-left: 40%;
+}
+*/
+
 .img-circle {
     width: 10%;
     height: auto;
@@ -21,10 +35,13 @@ h1 {
     font-weight: bold;
 }
 
-.section {
-    border-bottom: solid 2px gray;
-    border-top: solid 2px gray;
+h2 {
+    border-bottom: solid 2px plum;
+    border-top: solid 2px plum;
     font-size: 30px;
+    font-family: Georgia;
+    color: teal;
+    font-weight: bold;
 }
 
 .emph {
