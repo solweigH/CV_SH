@@ -14,54 +14,64 @@
     <div id="bord">
         <img class="img-circle" src="einstein.jpg" alt="[img einstein]" />
         <h1>Solweig Hennechart</h1>
-        <div class="intro">
+        <nav><ul id="navigation">
+            <li><a class="active" href="#intro">Info</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#experience">Exp</a></li>
+            <li><a href="#compinfo">Compétences</a></li>
+            <li><a href="#lang">Langues</a></li>
+            <li><a href="#other">Autre</a></li>
+          </ul></nav>
+        <div class="bord1" id="intro">
             <h2>Informations personnelles</h2>
-            <p>Bla bla bla bla bla Bla bla bla Bla bla bla Bla bla bla <span class="emph">Pouet</span> bla bla Bla bla bla Bla bla bla Bla bla bla bla bla bla bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla </p>
             <p>22 ans</p>
             <p>120, rue de Bègles 33800 Bordeaux</p>
             <a href="mailto:solweig.Hennechart@etu.u-bordeaux.fr">solweig.Hennechart@etu.u-bordeaux.fr</a>
             <p>06.48.77.10.78</p>
-            <input type="button" value="me contacter" onclick="window.location.href='mailto:john.doe@u-bordeaux.fr'" />
         </div>
 
     </div>
     <div id="exp">
-        <div class="parcours">
+        <div class="bord2" id="parcours">
             <h2>Parcours Académique</h2>
             <p><span class="date">2019-2021</span> <a href="https://www.u-bordeaux.fr/formation/2016/PRMA_74/bio-informatique"> Master bio-informatique de Bordeaux</a></p>
             <p><span class="date">2019 - </span>obtention licence</p>
             <p><span class="date">2015 - </span>obtention bac S</p>
         </div>
-        <div class="experience">
+        <div class="bord1" id="experience">
             <h2>Expériences Professionnelles</h2>
             <p><span class="date">2015 - 2016</span> animatrice en centre de loisir</p>
             <p><span class="date">2018 - 2019</span> chargé de recouvrement</p>
         </div>
-        <div class="compinfo">
+        <div class="bord2" id="compinfo">
             <h2>Compétences informatiques</h2>
-            <div id="col1">
-                <h3>Languages</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>Css</li>
-                </ul>
-            </div>
-            <div id="col2">
+            <div class="col">
                 <h3>Logiciels</h3>
-                <ul>
-                    <li>ImageJ</li>
-                    <li>Genetix</li>
-                    <li>PopG</li>
-                    <li>jsp</li>
-                </ul>
+                    <ul>
+                        <li>ImageJ</li>
+                        <li>Genetix</li>
+                        <li>PopG</li>
+                        <li>jsp</li>
+                    </ul>
+                <p>
+
+                </p>
+                <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>Css</li>
+                    </ul>
             </div>
         </div>
-        <div class="Lang">
+        <div class="bord1" id="lang">
             <h2>Langues</h2>
+            <p class="flag flag-fr"> <p>français</p></p>
+            <p class="flag flag-us" > <p>Anglais</p></p>
+            </div>
         </div>
-        <div class="other">
+        <div class="bord2" id="other">
             <h2>Autres Activités</h2>
             <p><span class="date">2014 - ?</span> Bénévole développement durable</p>
         </div>
